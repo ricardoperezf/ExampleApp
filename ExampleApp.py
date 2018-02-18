@@ -5,8 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World Jesus!'
+    return 'Hello World Jesus Fuentes!'
 
+@app.route('/jesus')
+def hellojesus():
+    return 'Hello Jesus Fuentes!'
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
